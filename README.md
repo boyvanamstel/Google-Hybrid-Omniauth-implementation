@@ -57,6 +57,10 @@ I'm just going to describe this for OSX/Linux, it works very similar on Windows.
     :consumer_key => '[your key here]',
     :consumer_secret => '[your secret here]'
 
+3. Optionally change the scope by adding scope urls, found [here](http://googlecodesamples.com/oauth_playground/):
+
+    :scope => ["https://www.google.com/m8/feeds/", "https://mail.google.com/mail/feed/atom/"],
+
 ## Runing the application
 
 1. Open the application's Google Hybrid login url in the browser:
