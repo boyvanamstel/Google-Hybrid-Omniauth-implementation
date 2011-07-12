@@ -44,6 +44,7 @@ I'm just going to describe this for OSX/Linux, it works very similar on Windows.
 2. Run bundler:
 
     $ cd Google-Hybrid-Omniauth-implementation
+
     $ bundle install
 
 ## Adding the consumer key and secret
@@ -55,6 +56,7 @@ I'm just going to describe this for OSX/Linux, it works very similar on Windows.
 2. Change the :consumer_key and :consumer_secret to the information Google provider in the first step:
 
     :consumer_key => '[your key here]',
+
     :consumer_secret => '[your secret here]'
 
 3. Optionally change the scope by adding scope urls, found [here](http://googlecodesamples.com/oauth_playground/):
