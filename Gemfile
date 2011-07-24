@@ -30,8 +30,6 @@ gem 'sqlite3'
 #   gem 'webrat'
 # end
 
-gem 'omniauth', :git => 'git://github.com/boyvanamstel/omniauth.git', :branch => 'google-hybrid'
-gem 'oa-oauth', :require => 'omniauth/oauth'
-gem 'oa-openid', :require => 'omniauth/openid'
+gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git'
 
 #gem 'omniauth'
