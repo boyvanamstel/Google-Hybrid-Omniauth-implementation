@@ -31,5 +31,6 @@ gem 'sqlite3'
 # end
 
 gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git'
+gem 'mongrel'
 
 #gem 'omniauth'
